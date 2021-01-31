@@ -1,0 +1,60 @@
+%*******************************************************
+% Titlepage
+%*******************************************************
+\begin{titlepage}
+    %\pdfbookmark[1]{\myTitle}{titlepage}
+    % if you want the titlepage to be centered, uncomment and fine-tune the line below (KOMA classes environment)
+    \begin{addmargin}[-2cm]{-3cm}
+        \begin{center}
+            
+            {\color{CTtitle}\scshape\Huge \myUni\par}\vspace{2cm} % University name\\[0.4cm]
+            
+            \textsc{\LARGE Master's Thesis}\\[0.6cm] % Thesis type
+            
+            \begin{addmargin}[0cm]{0cm}
+                \begin{center}
+                    \HRule \\[0.4cm] % Horizontal line
+                    {\huge \scshape \myTitle\par}\vspace{0.4cm} % Thesis title
+                    \HRule \\[1cm] % Horizontal line
+                \end{center}
+            \end{addmargin}
+            
+            
+            \emph{Author:}\\[0.1cm]
+            \myName \\
+            \myDegree, \myUni\\ 
+            \myLocation \\
+            \texttt{\myEmail}\\[4cm]
+            
+            \emph{Advisor:}\\[0.1cm]
+            \myAdvisor \\
+            \myAdvisorUni \\
+            \myAdvisorLocation \\[1cm]
+            
+            \begin{minipage}[b]{0.5\textwidth}
+                \centering
+                \emph{Thesis Supervisor:}\\[0.1cm]
+                \myProf \\
+                \myProfUni \\
+                \myProfLocation
+            \end{minipage}%
+            \begin{minipage}[b]{0.5\textwidth}
+                \centering
+                \emph{Second Examiner:}\\
+                \myOtherProf \\
+                \myOtherProfUni \\
+                \myOtherProfLocation
+            \end{minipage}
+            \\[1.5cm]
+            \vfill
+            
+            
+            \color{CTtitle}
+            {\Large \myFaculty \\[0.25cm]}
+            {\Large \myDepartment}  \\[2cm] % Research group name and department name
+            
+            \vfill
+            
+        \end{center}
+    \end{addmargin}
+\end{titlepage}
